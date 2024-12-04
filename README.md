@@ -12,13 +12,22 @@ The goal of this project is to predict the number of stars a GitHub repository w
 - **Handling Missing Values and Outliers**: Cleaned the data to handle missing values and outliers effectively.
 - **Log Transformation**: Applied a logarithmic transformation to both the target variable **'Stars'** and numerical features such as **'Forks'** to normalize their distributions and handle skewness.
 
-### Model Training:
+### Model Training and Hyperparameter Tuning:
 - Trained multiple machine learning models, including **Lasso Regression**, **Random Forest**, and **XGBoost**.
-- Evaluated model performance using **RMSE** (Root Mean Squared Error).
-
-### Hyperparameter Tuning:
 - Used **GridSearchCV** with **5-fold cross-validation** to optimize the models' hyperparameters and improve performance.
+- Evaluated model performance using **RMSE** (Root Mean Squared Error) and other relevant metrics.
 
+## Tools Used
+
+- **Python** (Version 3.x): The programming language used to implement the model and preprocess the data.
+- **Jupyter Notebook** (Version 6.x): Used for interactive development and experimentation.
+- **pandas** (Version 1.x): For data manipulation and analysis.
+- **numpy** (Version 1.x): For numerical operations and handling arrays.
+- **scikit-learn** (Version 0.x): For building machine learning models, performing cross-validation, and hyperparameter tuning with **GridSearchCV**.
+- **xgboost** (Version 1.x): For training the XGBoost model, which is one of the regression techniques used.
+- **matplotlib** (Version 3.x) & **seaborn** (Version 0.x): For data visualization, including plotting the distribution of features and evaluating model performance.
+- **os** (Version x.x): For interacting with the operating system and handling file paths.
+- **datetime** (Version x.x): For handling date and time operations during data preprocessing.
 
 ## Installation
 

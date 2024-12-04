@@ -10,7 +10,7 @@ The goal of this project is to predict the number of stars a GitHub repository w
 
 ### Data Preprocessing:
 - **Handling Missing Values and Outliers**: Cleaned the data to handle missing values and outliers effectively.
-- **Log Transformation**: Applied a logarithmic transformation to the target variable **'Stars'** to normalize its distribution.
+- **Log Transformation**: Applied a logarithmic transformation to both the target variable **'Stars'** and numerical features such as **'Forks'** to normalize their distributions and handle skewness.
 
 ### Model Training:
 - Trained multiple machine learning models, including **Random Forest**, **Lasso Regression**, and **XGBoost**.

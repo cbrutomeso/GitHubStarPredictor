@@ -32,17 +32,6 @@ The goal of this project is to predict the number of stars a GitHub repository w
 22. **Is Template**: A boolean value indicating whether the repository is a template repository.
 23. **Default Branch**: The name of the default branch in the repository (e.g., "main" or "master").
 
-## Key Features
-
-### Data Preprocessing:
-- **Handling Missing Values and Outliers**: Cleaned the data to handle missing values and outliers effectively.
-- **Log Transformation**: Applied a logarithmic transformation to both the target variable **'Stars'** and numerical features such as **'Forks'** to normalize their distributions and handle skewness.
-
-### Model Training and Hyperparameter Tuning:
-- Trained multiple machine learning models, including **Lasso Regression**, **Random Forest**, and **XGBoost**.
-- Used **GridSearchCV** with **5-fold cross-validation** to optimize the models' hyperparameters and improve performance.
-- Evaluated model performance using **RMSE** (Root Mean Squared Error) and other relevant metrics.
-
 ## Tools Used
 
 - **Python**
@@ -54,4 +43,30 @@ The goal of this project is to predict the number of stars a GitHub repository w
 - **matplotlib** & **seaborn**
 - **os**
 - **datetime**
+
+## Jupyter Notebooks
+
+This project includes two Jupyter Notebooks that provide a detailed walkthrough of the data analysis and machine learning model development process. Each notebook is structured to explain and demonstrate the key steps in the project, from data preprocessing to model training and evaluation.
+
+### Notebooks:
+
+1. **data_processing.ipynb**:
+   - filepath: notebooks/data_processing.ipynb
+   - This notebook focuses on loading the dataset, handling missing values, and performing exploratory data analysis (EDA).
+   - It includes the following key features:
+     - **Handling Missing Values and Outliers**: Cleaned the data to handle missing values and outliers effectively.
+     - **Log Transformation**: Applied a logarithmic transformation to both the target variable **'Stars'** and numerical features such as **'Forks'** to normalize their distributions and handle skewness.
+   - Various visualizations are created to understand the distribution of features and their relationships with the target variable.
+
+2. **model_training.ipynb**:
+   - filepath: notebooks/model_training.ipynb
+   - This notebook covers the training of machine learning models, including **Lasso Regression**, **Random Forest**, and **XGBoost**.
+   - It includes the following key features:
+     - **Model Training**: Trained multiple machine learning models.
+     - **Hyperparameter Tuning**: Used **GridSearchCV** with **5-fold cross-validation** to optimize the models' hyperparameters and improve performance.
+     - **Performance Evaluation**: Evaluated model performance using **RMSE** (Root Mean Squared Error) and other relevant metrics.
+   - The results of different models are compared to determine the best-performing approach.
+
+Each notebook is independent, allowing users to follow the step-by-step analysis and adjust or extend the code as needed. To run the notebooks, install the required dependencies and follow the instructions provided within each notebook.
+
 

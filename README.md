@@ -77,3 +77,10 @@ The best-performing model in this project was the **Random Forest** model. The r
 - The **Test R²** value was **0.6846**, which suggests that the model explains approximately 68.46% of the variance in the target variable, **Stars**.
 - Regarding feature importance, the results suggest that the **number of forks a repository plays a significant role in determining the number of stars** it will receive, with an importance value of **0.7118**. Other important features include the time since the last update, the number of issues, the repository's age, and whether or not it has discussions enabled.
 
+## Contributing
+
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Please ensure that your contributions align with the project's goals and follow the code style used in the project.
+
+##  License
+This project is licensed under the MIT License.
+

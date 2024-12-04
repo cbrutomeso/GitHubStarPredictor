@@ -13,11 +13,11 @@ The goal of this project is to predict the number of stars a GitHub repository w
 - **Log Transformation**: Applied a logarithmic transformation to both the target variable **'Stars'** and numerical features such as **'Forks'** to normalize their distributions and handle skewness.
 
 ### Model Training:
-- Trained multiple machine learning models, including **Random Forest**, **Lasso Regression**, and **XGBoost**.
+- Trained multiple machine learning models, including **Lasso Regression**, **Random Forest**, and **XGBoost**.
 - Evaluated model performance using **RMSE** (Root Mean Squared Error).
 
 ### Hyperparameter Tuning:
-- Used **GridSearchCV** and **RandomizedSearchCV** to optimize the models' hyperparameters and improve performance.
+- Used **GridSearchCV** with **5-fold cross-validation** to optimize the models' hyperparameters and improve performance.
 
 ### Error Analysis:
 - Analyzed residuals (errors between predicted and actual values) to identify areas of improvement and refine the model.

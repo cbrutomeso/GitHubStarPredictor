@@ -19,13 +19,13 @@ The goal of this project is to predict the number of stars a GitHub repository w
 
 ## Tools Used
 
-- **Python**: The programming language used to implement the model and preprocess the data.
-- **Jupyter Notebook**: Used for interactive development and experimentation.
-- **pandas**: For data manipulation and analysis.
-- **numpy**: For numerical operations and handling arrays.
-- **scikit-learn**: For building machine learning models, performing cross-validation, and hyperparameter tuning with **GridSearchCV**.
-- **xgboost**: For training the XGBoost model, which is one of the regression techniques used.
-- **matplotlib** & **seaborn**: For data visualization, including plotting the distribution of features and evaluating model performance.
-- **os**: For interacting with the operating system and handling file paths.
-- **datetime**: For handling date and time operations during data preprocessing.
+- **Python**
+- **Jupyter Notebook**
+- **pandas**
+- **numpy**
+- **scikit-learn**
+- **xgboost**
+- **matplotlib** & **seaborn**
+- **os**
+- **datetime**
 

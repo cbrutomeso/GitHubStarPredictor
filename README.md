@@ -1,6 +1,6 @@
 # GitHub Stars Prediction Model
 
-This repository contains a machine learning model designed to predict the number of stars a GitHub repository will receive based on various features. The model utilizes regression techniques, including XGBoost, and includes data preprocessing, model training, and evaluation processes.
+A machine learning project for predicting the number of stars a GitHub repository will receive based on various repository characteristics. The model utilizes regression techniques, and includes data preprocessing, model training, and evaluation processes.
 
 ## Project Overview
 

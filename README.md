@@ -69,7 +69,7 @@ This project includes two Jupyter Notebooks that provide a detailed walkthrough 
 
 Each notebook is independent, allowing users to follow the step-by-step analysis and adjust or extend the code as needed. To run the notebooks, install the required dependencies and follow the instructions provided within each notebook.
 
-### Summary Results
+## Summary Results
 
 The best-performing model in this project was the **Random Forest** model. The results obtained on the test set are as follows:
 

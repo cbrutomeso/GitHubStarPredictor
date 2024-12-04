@@ -14,8 +14,7 @@ The goal of this project is to predict the number of stars a GitHub repository w
 
 ### Model Training:
 - Trained multiple machine learning models, including **Random Forest**, **Lasso Regression**, and **XGBoost**.
-- Applied **regularization** to reduce overfitting and improve generalization.
-- Evaluated model performance using metrics like **RMSE** (Root Mean Squared Error) and **R²** (coefficient of determination).
+- Evaluated model performance using **RMSE** (Root Mean Squared Error).
 
 ### Hyperparameter Tuning:
 - Used **GridSearchCV** and **RandomizedSearchCV** to optimize the models' hyperparameters and improve performance.

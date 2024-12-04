@@ -69,4 +69,11 @@ This project includes two Jupyter Notebooks that provide a detailed walkthrough 
 
 Each notebook is independent, allowing users to follow the step-by-step analysis and adjust or extend the code as needed. To run the notebooks, install the required dependencies and follow the instructions provided within each notebook.
 
+### Summary Results
+
+The best-performing model in this project was the **Random Forest** model. The results obtained on the test set are as follows:
+
+- The **Test RMSE** for **Random Forest** was **0.5544**, slightly better than **XGBoost** at **0.5580**, and significantly better than **Lasso Regression** at **0.6543**, indicating that Random Forest minimized prediction error the most among the three models.
+- The **Test R²** value was **0.6846**, which suggests that the model explains approximately 68.46% of the variance in the target variable, **Stars**.
+- Regarding feature importance, the results suggest that the number of forks a repository plays a significant role in determining the number of stars it will receive, with an importance value of **0.7118**. Other important features include the time since the last update, the number of issues, the repository's age, and whether or not it has discussions enabled.
 

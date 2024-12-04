@@ -19,9 +19,6 @@ The goal of this project is to predict the number of stars a GitHub repository w
 ### Hyperparameter Tuning:
 - Used **GridSearchCV** with **5-fold cross-validation** to optimize the models' hyperparameters and improve performance.
 
-### Error Analysis:
-- Analyzed residuals (errors between predicted and actual values) to identify areas of improvement and refine the model.
-- Investigated patterns in prediction errors to enhance future iterations.
 
 ## Installation
 

@@ -1,7 +1,6 @@
 # GitHub Stars Prediction Model
 
-A machine learning project for predicting the number of stars a GitHub repository will receive based on various repository characteristics. The model utilizes regression techniques, and includes data preprocessing, model training, and evaluation processes.
-
+A machine learning project for predicting the number of stars a GitHub repository will receive based on various repository characteristics.
 ## Project Overview
 
 The goal of this project is to predict the number of stars a GitHub repository will receive, based on various characteristics such as the number of forks, issues, commits, and other repository-related features. The model also analyzes these factors to provide insights into what contributes to a repository's popularity.
